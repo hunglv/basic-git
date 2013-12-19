@@ -21,6 +21,7 @@
 		28E6C2B21862E04700B15E0D /* git_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2B11862E04700B15E0D /* git_demoTests.m */; };
 		28E6C2C01862FEA700B15E0D /* OtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2BF1862FEA700B15E0D /* OtherClass.m */; };
 		28E6C2C3186313FC00B15E0D /* ObjectFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2C2186313FC00B15E0D /* ObjectFirst.m */; };
+		28E6C2C61863149A00B15E0D /* ObjectSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2C51863149A00B15E0D /* ObjectSecond.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		28E6C2BF1862FEA700B15E0D /* OtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherClass.m; sourceTree = "<group>"; };
 		28E6C2C1186313FC00B15E0D /* ObjectFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectFirst.h; sourceTree = "<group>"; };
 		28E6C2C2186313FC00B15E0D /* ObjectFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectFirst.m; sourceTree = "<group>"; };
+		28E6C2C41863149A00B15E0D /* ObjectSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSecond.h; sourceTree = "<group>"; };
+		28E6C2C51863149A00B15E0D /* ObjectSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectSecond.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				28E6C2BF1862FEA700B15E0D /* OtherClass.m */,
 				28E6C2C1186313FC00B15E0D /* ObjectFirst.h */,
 				28E6C2C2186313FC00B15E0D /* ObjectFirst.m */,
+				28E6C2C41863149A00B15E0D /* ObjectSecond.h */,
+				28E6C2C51863149A00B15E0D /* ObjectSecond.m */,
 			);
 			path = "git-demo";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E6C2C61863149A00B15E0D /* ObjectSecond.m in Sources */,
 				28E6C29D1862E04700B15E0D /* AppDelegate.m in Sources */,
 				28E6C2991862E04700B15E0D /* main.m in Sources */,
 				28E6C2C01862FEA700B15E0D /* OtherClass.m in Sources */,
