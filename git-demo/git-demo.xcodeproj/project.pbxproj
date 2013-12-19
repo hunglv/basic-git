@@ -19,6 +19,7 @@
 		28E6C2A81862E04700B15E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E6C2901862E04700B15E0D /* UIKit.framework */; };
 		28E6C2B01862E04700B15E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E6C2AE1862E04700B15E0D /* InfoPlist.strings */; };
 		28E6C2B21862E04700B15E0D /* git_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2B11862E04700B15E0D /* git_demoTests.m */; };
+		28E6C2C01862FEA700B15E0D /* OtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6C2BF1862FEA700B15E0D /* OtherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		28E6C2AD1862E04700B15E0D /* git-demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git-demoTests-Info.plist"; sourceTree = "<group>"; };
 		28E6C2AF1862E04700B15E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28E6C2B11862E04700B15E0D /* git_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_demoTests.m; sourceTree = "<group>"; };
+		28E6C2BE1862FEA700B15E0D /* OtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherClass.h; sourceTree = "<group>"; };
+		28E6C2BF1862FEA700B15E0D /* OtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				28E6C29C1862E04700B15E0D /* AppDelegate.m */,
 				28E6C29E1862E04700B15E0D /* Images.xcassets */,
 				28E6C2931862E04700B15E0D /* Supporting Files */,
+				28E6C2BE1862FEA700B15E0D /* OtherClass.h */,
+				28E6C2BF1862FEA700B15E0D /* OtherClass.m */,
 			);
 			path = "git-demo";
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				28E6C29D1862E04700B15E0D /* AppDelegate.m in Sources */,
 				28E6C2991862E04700B15E0D /* main.m in Sources */,
+				28E6C2C01862FEA700B15E0D /* OtherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +447,7 @@
 				28E6C2B71862E04700B15E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E6C2B81862E04700B15E0D /* Build configuration list for PBXNativeTarget "git-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				28E6C2BA1862E04700B15E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
